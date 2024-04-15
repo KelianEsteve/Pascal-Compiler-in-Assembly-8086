@@ -1,0 +1,17 @@
+VAR
+a:INTEGER.
+
+FOR a:=1 TO 5:
+	DISPLAY a;
+
+FOR a:=5 DOWNTO 1:
+	DISPLAY a;
+	
+a:=3;
+
+CASE a OF
+  1 : DISPLAY 4;
+  2 : DISPLAY 2;
+  3 : DISPLAY 72;
+  5 : DISPLAY 8.
+.
